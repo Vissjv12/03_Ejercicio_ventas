@@ -1,3 +1,7 @@
+Autor: Jordy Viscaino
+Nrc: 36880
+Aplicaciones distribuidas
+--------------------------------------------------------
 ## Venta de entradas con Lock
 
 Se simula una taquilla con cinco entradas y ocho clientes que intentan comprarlas al mismo tiempo.
