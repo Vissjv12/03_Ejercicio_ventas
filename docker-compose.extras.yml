@@ -1,0 +1,21 @@
+services:
+  consulta-sucursales:
+    image: python:3.11-alpine
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: python 01_consulta_secuencial_sucursales.py
+
+  carga-escolar:
+    image: python:3.11-alpine
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: python 02_carga_concurrente_archivos.py
+
+  venta-entradas:
+    image: python:3.11-alpine
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: python 03_venta_entradas_lock.py
